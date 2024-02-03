@@ -1,37 +1,23 @@
-<!DOCTYPE html>
+<style>
+    body::before {
+     content: '';
+     position: fixed; /* Фиксируем на одном месте */
+     left: 0; right: 0; /* Вся ширин */
+     top: 0; bottom: 0; /* Вся высота */
+     z-index: -1; /* Фон ниже текста */
+     /* Параметры фона */
+     background: url(bg.jpg) center / cover no-repeat;
+     filter: blur(5px); /* Размытие */
+    }
+    body {
+     color: #ffffff; /* Цвет текста */
+    }
+   </style>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>NGINX on Railway</title>
-    <meta name="description" content="Choo Choo!" />
+<title>@qwnbe / Bio</title>
+<h1>Qwnbe</h1>
+<h3>Russian man.Furry, developer and just a person></h3>
+<h5>Qwnbe, 2024 / Hosting Railway</h5>
+<a href="https://t.me/qwnbe">Write Message</a>
 
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
-
-  <body>
-    <main>
-      <img
-        src="https://railway.app/brand/logo-light.svg"
-        alt="Railway logo"
-        class="logo"
-      />
-
-      <h1>NGINX on Railway</h1>
-
-      <p>
-        Choo Choo! This is an example of an NGINX static site running on
-        Railway.
-        <a
-          href="https://github.com/railwayapp/starters/tree/master/examples/nginx"
-          >View source</a
-        >.
-      </p>
-    </main>
-
-    <script src="/script.js"></script>
-  </body>
 </html>
